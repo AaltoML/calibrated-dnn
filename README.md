@@ -1,9 +1,10 @@
 # Fixing Overconfidence in Dynamic Neural Networks
 
-This repository provides instructions and code on how to replicate the results predented in the paper *Fixing Overconfidence in Dynamic Neural Networks*.
+This repository is the official implementation of the methods in the publication:
 
+* Lassi Meronen, Martin Trapp, Andrea Pilzer, Le Yang, and Arno Solin (2024). **Fixing overconfidence in dynamic neural networks**. In *IEEE Winter Conference on Applications of Computer Vision (WACV)*. [[arXiv preprint]](https://arxiv.org/abs/2302.06359)
 
-## Installing required Python packages in a virtual environment:
+## Installing required Python packages in a virtual environment
 
 * Start by installing Python version 3.7.4
 * Create and start a virtual environment named `MSDNet`:
@@ -142,3 +143,7 @@ python main.py --data-root /path_to_caltech --data caltech256 --save /savepath/M
 ```
 * To use MIE in the evaluation of a model, add the argument `--MIE` to the model testing commands.
 * To test with both Laplace and MIE (our model) add both of the above mentioned arguments into the testing command.
+
+## License
+
+This software is provided under the [MIT License](LICENSE).
